@@ -1,42 +1,64 @@
 ﻿<div align="center">
 
-## Image rollover<br/>by Mike McGrath
+## Image rollover
+
 
 </div>
 
 ### Description
 
 Run your mouse over either image to change both images. The swap image has been preloaded to be readily available when needed.
+ 
+### More Info
+ 
+
+
+<span>             |<span>
+---                |---
+**Submitted On**   |
+**By**             |[Mike McGrath](https://github.com/Planet-Source-Code/PSCIndex/blob/master/ByAuthor/mike-mcgrath.md)
+**Level**          |Beginner
+**User Rating**    |4.7 (14 globes from 3 users)
+**Compatibility**  |
+**Category**       |[Graphics](https://github.com/Planet-Source-Code/PSCIndex/blob/master/ByCategory/graphics__2-75.md)
+**World**          |[Java](https://github.com/Planet-Source-Code/PSCIndex/blob/master/ByWorld/java.md)
+**Archive File**   |[](https://github.com/Planet-Source-Code/mike-mcgrath-image-rollover__2-1767/archive/master.zip)
+
+
+
+
 
 ### Source Code
 
-<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
-<html>
-<head>
-<title>rollovers</title>
-<script type="text/javascript">
-<!-- original: mike mcgrath (mike_mcgrath@lineone.net) -->
-<!-- web site: http://website.lineone.net/~mike_mcgrath/index.htm -->
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Rollovers</TITLE>
+<SCRIPT TYPE="text/javascript">
+<!-- Original: Mike McGrath (mike_mcgrath@lineone.net) -->
+<!-- Web Site: http://website.lineone.net/~mike_mcgrath/index.htm -->
 <!--
-preload=new image();
+preload=new Image();
 preload.src="images/anim.gif";
 //-->
-</script>
-</head>
-<body>
-<a href="javascript://"
+</SCRIPT>
+</HEAD>
+<BODY>
+<A HREF="javascript://"
 	onmouseover="a.src='images/anim.gif'; b.src='images/anim.gif';"
 	onmouseout= "a.src='images/clik.gif'; b.src='images/clik.gif';">
-<img border=0 name="a" src="images/clik.gif"></a>
-<p>
-run your mouse over either image to change both images.<br>
-the swap image has been preloaded to be readily available when needed.<br>
-right-click and select view source for more details.
-<p>
-<a href="javascript://"
+<IMG BORDER=0 NAME="a" SRC="images/clik.gif"></A>
+<P>
+Run your mouse over either image to change both images.<BR>
+The swap image has been preloaded to be readily available when needed.<BR>
+Right-click and select View Source for more details.
+<P>
+<A HREF="javascript://"
 	onmouseover="a.src='images/anim.gif'; b.src='images/anim.gif';"
 	onmouseout= "a.src='images/clik.gif'; b.src='images/clik.gif';">
-<img border=0 name="b" src="images/clik.gif"></a>
-</body>
-</html>
+<IMG BORDER=0 NAME="b" SRC="images/clik.gif"></A>
+</BODY>
+</HTML>
+```
 
